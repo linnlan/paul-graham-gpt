@@ -18,7 +18,7 @@ export const Footer: FC = () => {
             <div className="flex space-x-4">
                 <a
                     className="flex items-center hover:opacity-50"
-                    href="https://github.com/"
+                    href="https://github.com/linnlan/paul-graham-gpt"
                     target="_blank"
                     rel="noreferrer"
                 >
