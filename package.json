@@ -6,20 +6,36 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "scrape": "tsx scripts/scrape.ts",
+    "embed": "tsx scripts/embed.ts"
   },
   "dependencies": {
+    "@next/font": "^13.4.19",
+    "@tabler/icons-react": "^2.31.0",
     "@types/node": "20.5.0",
     "@types/react": "18.2.20",
     "@types/react-dom": "18.2.7",
-    "autoprefixer": "10.4.15",
+    "endent": "^2.1.0",
     "eslint": "8.47.0",
     "eslint-config-next": "13.4.17",
-    "next": "13.4.17",
-    "postcss": "8.4.28",
+    "eventsource-parser": "^1.0.0",
+    "next": "^13.4.19",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "tailwindcss": "3.3.3",
+    "tqdm": "^2.0.3",
     "typescript": "5.1.6"
+  },
+  "devDependencies": {
+    "@next/env": "^13.4.19",
+    "@supabase/supabase-js": "^2.32.0",
+    "autoprefixer": "^10.4.15",
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
+    "gpt-3-encoder": "^1.1.4",
+    "openai": "^4.0.1",
+    "postcss": "^8.4.28",
+    "tailwindcss": "^3.3.3",
+    "tsx": "^3.12.7"
   }
 }
